@@ -1,0 +1,23 @@
+[package]
+name = "more-iter"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Zhang Yanpo <drdr.xp@gmail.com>",
+]
+
+# https://crates.io/categories
+categories = ["algorithms", "data-structures"]
+description = "More iterator utilities"
+documentation = "https://docs.rs/more-iter"
+homepage = "https://github.com/drmingdrmer/more-iter"
+keywords = ["iterator"]
+license = "Apache-2.0"
+repository = "https://github.com/drmingdrmer/more-iter"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+maplit = "1.0.2"
